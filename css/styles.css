@@ -1,0 +1,36 @@
+
+:root{
+  --primary: #673AB7;
+  --dark-primary: #512DA8;
+  --light-primary: #D1C4E9;
+  --txt: #FFFFFF;
+  --accent: #9E9E9E;
+  --primary-txt: #212121;
+  --secondary-txt: #757575;
+  --divider: #BDBDBD;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.7em;
+  background-color: #FFFFFF;
+}
+
+#container {
+  width: 60%;
+  margin-left: 20%;
+
+  background-color: var(--light-primary);
+
+  text-align: center;
+}
+
+p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  background-color: var(--dark-primary);
+}
