@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 100%;
   line-height: 1.7em;
   background-color: #FFFFFF;
@@ -26,11 +26,42 @@ body {
   text-align: center;
 }
 
+#bigLogo {
+  width: 50%;
+  margin: 3%;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5%;
+  padding-top: 0;
+
+  color: var(--secondary-txt);
+  font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+  color: var(--primary-txt);
+  font-family: 'Roboto Slab', serif;
+}
+
 p {
   margin-left: 2em;
   margin-right: 2em;
+
+  color: var(--secondary-txt);
+}
+
+hr {
+border: 0;
+            height: 3px;
+                        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 100, 100, 0.75), rgba(0, 0, 0, 0));
 }
 
 footer {
-  background-color: var(--dark-primary);
+  background-color: var(--primary);
+}
+
+footer p {
+  color: var(--txt);
 }
