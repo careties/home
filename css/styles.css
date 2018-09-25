@@ -91,5 +91,33 @@ footer {
 }
 
 footer p {
+  margin-top: 0;
   color: var(--txt);
+}
+
+.icon {
+  width: 8%;
+  margin: 1%;
+}
+
+footer a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+}
+
+#icon-row {
+  margin: 0;
+  padding: 0;
+  border:0;
+  background-color: inherit;
+}
+
+#disclaimer {
+  margin-bottom: 2em;
+  font-size: 0.5em;
+  width: 50%;
+  margin-left: 25%;
+  line-height: 1.5em;
 }
